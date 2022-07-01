@@ -1,0 +1,134 @@
+body {
+   font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+h1,h2,h3{
+  margin: 5px 0;
+  color: rgb(70, 63, 58);
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(125, 109, 97);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+ 
+h2{
+  font-size: 10px;
+}
+
+h3{
+  font-size: 7px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(125, 107, 94);
+}
+
+a:hover{
+  color: green;
+}
+
+img.ex2:active {
+  font-size: 150%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1{
+  flex: 1;
+}
+
+.col-2{
+  flex: 2;
+  padding-bottom: 10px;
+}
+
+.containers{
+  background-color: rgb(104, 100, 98) transparent;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(110, 102, 95);
+  max-width: auto;
+  
+ 
+}
+
+.row.align{
+  align-items: center;
+}
+
+img{
+  max-height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: transform .10s;
+}
+
+img:hover {
+  transform: scale(1.2);  
+}
+
+button{
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 2px;
+  margin: 1px;
+  border-radius: 10px;
+  border: 2px white;
+  background-color: rgb(156, 153, 153);
+  width: 100%;
+  cursor: pointer;
+  width: 10rem;
+}
+button:hover{
+  color: burlywood;
+  background-color: aliceblue;
+}
+
+button.add{
+  background-color: aqua;
+  width: 1.5rem;
+   
+}
+
+button.remove{
+  background-color: crimson;
+  width: 1.5rem;
+   
+}
+
+button.badge{
+  background-color: darkgreen;
+  border: none;
+  color: rgb(255, 218, 7);
+  width: 1.5rem;
+
+}
+
+.selectbook{
+  text-align: start;
+
+}
+
+.wish{
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-wrap: break-word ;
+   
+}
+
+
+
+
+ 
+
